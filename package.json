@@ -1,0 +1,15 @@
+{
+	"name": "calvin",
+	"version": "0.0.1",
+	"description": "A tiny server, middleware, view, and controller framework.",
+	"keywords": ["framework"],
+	"repository": "git://github.com/shanebo/calvin.git",
+	"author": "Shane Thacker <shane@steadymade.com>",
+	"main": "./lib/calvin/calvin",
+	"dependencies": {
+		"open-uri": "0.3.5",
+		"mime": "1.2.4",
+		"beard": "0.0.1"
+	},
+	"engine": ">= 0.4.1"
+}
