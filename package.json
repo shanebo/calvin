@@ -9,6 +9,7 @@
 	"dependencies": {
 		"open-uri": "0.3.5",
 		"mime": "1.2.4",
+		"mustache": "0.4.0",
 		"beard": "0.0.1"
 	},
 	"engine": ">= 0.4.1"
