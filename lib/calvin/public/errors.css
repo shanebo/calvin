@@ -1,0 +1,38 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	text-align: left;
+	font: normal 14px/1.6 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+#error {
+	margin: 30px;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h1 em {
+	font-style: normal;
+	background: #ff6;
+}
+
+
+body.public {
+	text-align: center;
+}
+
+.public #error {
+	width: 610px;
+	margin: 30px auto;
+}
