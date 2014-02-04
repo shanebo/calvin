@@ -1,0 +1,40 @@
+body {
+	background: #262626;
+	font: normal 1em/1.5em "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	color: #262626;
+	background: #f7f7f7;
+	text-align: left;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h1 em {
+	font-style: normal;
+	background: #ff6;
+}
+
+#error {
+	margin: 30px;
+}
+
+.public #error {
+	text-align: center;
+	width: 610px;
+	margin: 54px auto;
+	background: #fff;
+	padding: 30px;
+	font: normal 1em/1.5em "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	color: #262626;
+	box-shadow: 0px 1px 3px rgba(0,0,0,.2);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.2);
+	border-radius: 3px;
+}
