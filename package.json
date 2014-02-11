@@ -1,6 +1,6 @@
 {
 	"name": "calvin",
-	"version": "0.8.0",
+	"version": "0.8.1",
 	"description": "A tiny server, middleware, view, and controller framework.",
 	"keywords": ["framework"],
 	"repository": "git://github.com/shanebo/calvin.git",
