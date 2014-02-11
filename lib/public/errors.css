@@ -1,9 +1,59 @@
+/* @group Defaults */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent
+}
+
 body {
-	background: #262626;
+	line-height: 1
+}
+
+ol,ul {
+	list-style: none
+}
+
+blockquote,q {
+	quotes: none
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none
+}
+
+a:focus,
+:focus {
+	outline: 0
+}
+
+ins {
+	text-decoration: none
+}
+
+del {
+	text-decoration: line-through
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+
+body {
 	font: normal 1em/1.5em "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 	color: #262626;
 	background: #f7f7f7;
 	text-align: left;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
 }
 
 h1,
@@ -12,29 +62,68 @@ h3 {
 	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 }
 
-h1 {
-	font-size: 36px;
-}
+/* @end */
 
-h1 em {
-	font-style: normal;
-	background: #ff6;
-}
+
+/* @group Error */
 
 #error {
 	margin: 30px;
 }
 
-.public #error {
-	text-align: center;
-	width: 610px;
-	margin: 54px auto;
-	background: #fff;
-	padding: 30px;
-	font: normal 1em/1.5em "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+#error h1 {
+	font: bold 16px/24px "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	margin: 30px 0;
+}
+
+#error h1 em {
+	font-style: normal;
+	background: #262626;
+	color: #fff;
+	padding: 2px 7px 3px;
+	line-height: 24px;
+}
+
+#error h1 em.status {
+	background: #f33;
+	color: #fff;
+}
+
+#error h1 em.type {
+	background: #262626;
+	color: #fff;
+}
+
+#error h1 em.reason {
+	background: #ff0;
 	color: #262626;
-	box-shadow: 0px 1px 3px rgba(0,0,0,.2);
-	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,.2);
-	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.2);
+}
+
+ol li {
+	margin: 0;
+	font-family: monospace;
+	white-space: pre;
+}
+
+/* @end */
+
+
+/* @group Public Error */
+
+#status {
+	text-align: center;
+	width: 320px;
+	margin: 54px auto;
+	padding: 60px 30px;
+	background: #fff;
+	box-shadow: 0px 1px 3px rgba(0,0,0,.1);
+	border: 1px solid rgba(0,0,0,.1);
 	border-radius: 3px;
 }
+
+#status h1 {
+	font: bold 36px/24px "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	margin-bottom: 12px;
+}
+
+/* @end */
