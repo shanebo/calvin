@@ -1,6 +1,6 @@
 {
 	"name": "calvin",
-	"version": "0.8.11",
+	"version": "0.8.12",
 	"description": "A tiny server, router, and middleware framework.",
 	"keywords": ["framework"],
 	"repository": "git://github.com/shanebo/calvin.git",
@@ -12,7 +12,8 @@
 		"uglify-js": "2.4.13",
 		"sqwish": "0.2.2",
 		"cookies": "0.2.1",
-		"beard": "0.0.2"
+		"beard": "0.0.2",
+		"node-sass": "3.3.3"
 	},
 	"engine": ">= 0.4.1"
 }
