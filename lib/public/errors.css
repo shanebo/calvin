@@ -101,7 +101,8 @@ h3 {
 
 ol li {
 	margin: 0;
-	font-family: monospace;
+    font-family: menlo, monospace;
+    font-size: 12px;
 	white-space: pre;
 }
 
