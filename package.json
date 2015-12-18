@@ -1,6 +1,6 @@
 {
 	"name": "calvin",
-	"version": "0.9.15",
+	"version": "0.9.16",
 	"description": "A tiny server, router, and middleware framework.",
 	"keywords": ["framework"],
 	"repository": "git://github.com/shanebo/calvin.git",
@@ -10,6 +10,7 @@
 		"mootools": "1.5.2",
 		"mime": "1.2.11",
 		"qs": "2.2.4",
+        "utils-merge": "1.0.0",
 		"uglify-js": "2.4.13",
 		"sqwish": "0.2.2",
 		"cookies": "0.5.1",
