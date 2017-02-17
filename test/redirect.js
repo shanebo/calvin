@@ -1,10 +1,6 @@
 var expect = require('expect.js');
 var Redirect = require('../lib/middleware/redirect')({
-    settings: {
-        redirect: {
-            '/foo': '/bar'
-        }
-    }
+    '/foo': '/bar'
 });
 
 describe('Redirect', function(){
