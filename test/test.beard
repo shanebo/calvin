@@ -1,0 +1,4 @@
+{{block foo}}
+foo block
+{{endblock}}
+content{{foo}}
