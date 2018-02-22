@@ -1,6 +1,6 @@
 {
   "name": "calvin",
-  "version": "0.24.4",
+  "version": "0.25.0",
   "description": "A tiny server, router, and middleware framework.",
   "license": "MIT",
   "keywords": [
