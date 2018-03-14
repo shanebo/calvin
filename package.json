@@ -13,7 +13,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "beard": "^0.5.4",
+    "beard": "0.5.5",
     "callsites": "2.0.0",
     "clone": "2.1.1",
     "cookies": "0.7.1",
